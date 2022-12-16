@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "leaves-cp-10"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-15303fzaerz2u"
+s3_prefix = "leaves-cp-10"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
